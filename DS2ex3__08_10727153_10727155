@@ -235,7 +235,7 @@ class Hash{
 	
 		
 	public:
-	bool Read(string &fileName){	
+	bool Read(string fileName){	
 		cout<<"Input a file number: ";
 		cin>>fileName;
 		bool haveBinFile = readBinary(fileName);
